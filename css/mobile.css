@@ -1,0 +1,41 @@
+@viewport { 
+   width: device-width;
+}
+:root{
+   --standard-white-color: #ffffff;
+   --text-color: #434455;
+   --title-text-color: #2E2F42;
+   --subtle-dark-color: #8E8F99;
+   --active-color: #F87719;
+   --accent-color: #E7E9FC;
+   --light-white-color: #F4F4FD;
+   --second-active-color: #F84119;
+   --card-set-gap: 20px;
+   --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+   0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+   --backdrop-color: rgba(46, 47, 66, 0.4);
+   --modal-color:  #FCFCFC;
+   --modal-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   --animation-duration: 250ms;
+   --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
+   }
+
+@media screen and (max-width: 428px){
+   .social-link-list-menu{
+       gap: initial;
+       justify-content: space-between;
+       
+   }
+   .image-list-member{
+      max-width: 320px;
+   }
+   .image-card{
+      max-width: 320px;
+   }
+   .image{
+      max-width: 320px ;
+   }
+   .img-fix{
+      max-width: 320px;
+   }
+}
