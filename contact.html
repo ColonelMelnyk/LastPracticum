@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museums</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class ="body">
+    <header class="header">
+        <div class="container-header">
+            <div class="header-block">
+                <nav>
+                <a href="./index.html" class="logo">Poltava<span class="logo-studio">Museums</span></a>
+
+                    <ul class="nav-list">
+                        <li class="nav-member"><a href ="./index.html" class="nav-link">Головна</a></li>
+                        <li class="nav-member"><a href ="./portfolio.html" class="nav-link">Музеї</a></li>
+                        <li class="nav-member"><a href ="./contact.html" class="nav-link-current">Контакти</a></li>
+                    </ul>
+                </nav>
+                <button data-menu-open type="button" class="menu-open" >
+                <svg class="menu-open-icon" width="32" height="22">
+                    <use href="./images/sprite/hamburger.svg#hamburger"></use>
+                </svg>
+                </button>
+                <ul class="contacts">
+                    <li class="contacts-member"><a href="mailto:info@devstudio.com" class="contacts-link">Poltavamuseums@gmail.com</a></li>
+                    <li class="contacts-member"><a href="tel:+11(000)111-11-11" class="contacts-link">+11 (000) 111-11-11</a></li>
+                </ul>
+            </div>
+        </div>
+        
+            <div class="mob-menu is-hidden" data-menu>
+                <div class="container-menu" >
+                    <button  data-menu-close type="button" class="menu-close" >
+                        <svg class="menu-close-icon" width="8" height="8">
+                            <use href="./images/sprite/vector.svg#vector"></use>
+                        </svg>
+                    </button>
+                    <div>
+                    <ul class="nav-list-menu">
+                        <li class="nav-member-menu"><a href ="./index.html" class="nav-link current-menu">Головна</a></li>
+                        <li class="nav-member-menu"><a href ="./portfolio.html" class="nav-link">Список музеїв</a></li>
+                        <li class="nav-member-menu"><a href ="./contact.html" class="nav-link">Контакти</a></li>
+                    </ul>
+                    </div>
+                    <div>
+                    <ul class="contacts-menu">
+                        <li class="contacts-member-menu"><a href="tel:+11(000)111-11-11" class="contacts-link phone-menu">+11 (000) 111-11-11</a></li>
+                        <li class="contacts-member-menu"><a href="mailto:info@devstudio.com" class="contacts-link email-menu">Poltavamuseums@gmail.com</a></li>
+                    </ul>
+                    
+                    <ul class="social-link-list-menu">
+                        <li>
+                            <a href="https://instagram.com" target="_blank" link="noopener norefferer nofollow" class="social-link">
+                            <svg width="24" height="24"> <use xlink:href="./images/sprite/social-links.svg#instagram"></use></svg>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://twitter.com" target="_blank" link="noopener norefferer nofollow" class="social-link">
+                            <svg width="24" height="24"> <use xlink:href="./images/sprite/social-links.svg#twitter"></use></svg>
+                        </a>
+                        </li>
+                        <li><a href="https://facebook.com" target="_blank" link="noopener norefferer nofollow" class="social-link">
+                            <svg width="24" height="24"> <use xlink:href="./images/sprite/social-links.svg#facebook"></use></svg>
+                        </a>
+                        </li>
+                        <li><a href="https://linkedin.com" target="_blank" link="noopener norefferer nofollow" class="social-link">
+                            <svg width="24" height="24"> <use xlink:href="./images/sprite/social-links.svg#linkedin"></use></svg>
+                        </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+    </header>   
+    <main>
+        <section class="disposition" >
+            <div class="container text-fix">
+                <h2 class ="disposition-title">Наші контакти</h2>
+                <p class = "disposition-text">
+                Адреса: Полтава, проспект Першотравневий, 24.
+                <br>Телефон: +11 (000) 111-11-11
+                <br> Електронна пошта : Poltavamuseums@gmail.com</p>
+                <h2 class ="disposition-title">Фото колективу</h2>
+                <img class= "width-fix" src="./images/Group-photo.jpg" width="100%" >
+                <h2 class ="disposition-title">Розташування</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1120.3836344509737!2d34.56676415191589!3d49.57644486960327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f7b31e55711%3A0x30ba998ea5f711bf!2z0J_QvtC70YLQndCi0KM!5e0!3m2!1sru!2sua!4v1687436045156!5m2!1sru!2sua" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="footer-content">
+            <div class="footer-logo">
+            <a href="./index.html" class="footer-web">Poltava<span class="footer-studio">Museums</span></a>
+            </div>
+            <p class="footer-text">Досліджуємо історію і культуру Полтавщини</p>
+            </div>
+            <div class="footer-socials">
+                <h3 class="footer-socials-title">Соцмережі</h3>
+                <ul class="footer-social-link-list">
+                    <li>
+                        <a href="https://instagram.com" target="_blank" link="noopener norefferer nofollow" class="footer-social-link">
+                        <svg width="24" height="24"> <use href="./images/sprite/social-links.svg#instagram"></use></svg>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://twitter.com" target="_blank" link="noopener norefferer nofollow" class="footer-social-link">
+                        <svg width="24" height="24"> <use href="./images/sprite/social-links.svg#twitter"></use></svg>
+                    </a>
+                    </li>
+                    <li><a href="https://facebook.com" target="_blank" link="noopener norefferer nofollow" class="footer-social-link">
+                        <svg width="24" height="24"> <use href="./images/sprite/social-links.svg#facebook"></use></svg>
+                    </a>
+                    </li>
+                    <li><a href="https://linkedin.com" target="_blank" link="noopener norefferer nofollow" class="footer-social-link">
+                        <svg width="24" height="24"> <use href="./images/sprite/social-links.svg#linkedin"></use></svg>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form-content">
+                
+                <form action="post">
+                    <h3 class="footer-form-title">Підписатися на оновлення</h3>
+                    <div class="input-and-button">
+                    <label class="label-exception">
+                        <input type="mail" class="footer-input" placeholder="Email">
+                    </label>
+                    <button type="submit" class="footer-button">Підписатися<span class="send-icon"><svg width="24" height="20"><use href="./images/sprite/form-icons.svg#send"></use></svg></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
