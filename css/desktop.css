@@ -1,0 +1,228 @@
+@viewport { 
+    width: device-width;
+}
+:root{
+    --standard-white-color: #ffffff;
+    --text-color: #434455;
+    --title-text-color: #2E2F42;
+    --subtle-dark-color: #8E8F99;
+    --active-color: #F87719;
+    --accent-color: #E7E9FC;
+    --light-white-color: #F4F4FD;
+    --second-active-color: #F84119;
+    --card-set-gap: 20px;
+    --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    --backdrop-color: rgba(46, 47, 66, 0.4);
+    --modal-color:  #FCFCFC;
+    --modal-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --animation-duration: 250ms;
+    --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
+    }
+@media screen and (min-width: 1200px) {
+    .container-header{
+        width: 1158px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container{
+        width: 1158px ;
+        margin: 0 auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+
+    .container-footer{
+        width: 1158px;
+        margin: 0 auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        display: flex;
+    }
+    .header{
+        padding-bottom: 25px;
+    }
+    .header-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+    }
+    .nav-list,
+     .contacts,
+      .logo{
+        display: flex;
+        align-items: center;
+    }
+    .nav-member{
+        list-style-type: none;  
+        display: inline-block;  
+        
+    }
+    .nav-list{
+        margin-left: 77px;
+        
+    }
+    .nav-link{
+        font-weight: 500;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .nav-list li:not(:last-child){
+        margin-right: 40px;
+    }
+    .contacts{
+       display: flex;
+       list-style: none;
+       padding-left: 0;
+      
+    }
+    .contacts-member{
+        list-style-type: none;
+    }
+    .contacts li:not(:last-child){
+      margin-right: 40px;
+    }
+    .contacts-link{
+        font-size: 16px;
+       
+    }
+    .menu-open{
+        display: none;
+    }
+    .mob-menu{
+        display: none;
+    }
+    .banner{
+        padding-bottom: 188px;  
+        padding-top: 188px;
+        max-width: 2560px;
+        max-height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/zastavka1.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .banner{
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/zastavka1.jpg);
+    }
+  }
+    .banner-logo{
+        font-size: 56px;
+        margin-bottom: 48px;
+    }
+    .button{
+        font-weight: 600;
+        line-height: 1.18;
+    }
+    .modal{
+        width: 408px;
+        min-height: 584px;
+    }
+    .activities{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Activities-background.jpg);
+        display: flex;
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .target{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Target-background.jpg);
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .target-list{
+        display: flex;
+        
+    }
+    .target-list li:not(:last-child){
+        margin-right: 48px;
+    }
+    .teamcards{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Teamcards-background.jpg);
+        padding-top: 120px;
+        padding-bottom: 120px;
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .teamcards-list{
+        display: flex;
+        margin: 0;
+        list-style: none;
+        flex-wrap: nowrap;
+        justify-content: initial;   
+        padding-bottom: 0;
+    }
+    .teamcards-list > .teamcards-member{
+        margin: 0;
+    }
+    .teamcards-list > .teamcards-member:not(:first-child) {
+        margin-left: 24px;
+    }
+    .footer{
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container-footer{
+        flex-wrap: initial;
+        justify-content: initial;
+    }
+    .footer-socials{
+        text-align: initial;
+        margin-top: 0;
+        margin-left: 120px;
+        margin-right: 80px;
+    }
+    .footer-form-content{
+        margin: 0;
+        text-align: initial;
+    }
+    .input-and-button{
+        display: flex;
+        width: 453px;
+        gap: 24px;
+    }
+    .footer-button{
+        margin-top: 0;
+    }
+    .footer-input{
+        width: 264px;
+    }
+    .museum-one{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumOne-background.jpg);
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .museum-two{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumTwo-background.jpg);
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .museum-three{
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/MuseumThree-background.jpg);
+        max-width: 2560px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+   .disposition{
+    max-width: 2560px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
